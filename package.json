@@ -1,8 +1,7 @@
 {
-    "name": "@zebrapig/three-utils",
+    "name": "zebrapig-three-utils",
     "version": "1.0.0",
     "license": "MIT",
-    "private": true,
     "main": "lib/index.js",
     "scripts": {
         "build": "tsc",
@@ -16,5 +15,9 @@
     "dependencies": {
         "minimatch": "^5.1.0",
         "three": "^0.143.0"
-    }
+    },
+    "files": [
+        "lib",
+        "README.md"
+    ]
 }
